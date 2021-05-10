@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My PageSpeed Insights</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>  
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">My Insights</a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    </br>	
+    <form class="formm tt">
+        <div class="container">
+            <div class="form-inline">
+                <div class="output1">Giúp trang web của bạn hoạt động nhanh trên tất cả các thiết bị.</div>
+                <input class="form-control mr-1" type="text" id="searchTerm" name="searchTerm" placeholder="Enter URL">
+                <button class="btn btn-primary" type="submit">Phân Tích</button>
+            </br>
+            
+            </div>
+        </div>
+        <div class="yy">aa</div>
+    </form>
+    </br>
+    <div class="progress" id="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%"></div>
+    </div>
+    </br>
+    
+    <div class="container sticky-top sticky-offset " >
+    <!-- Nav tabs -->
+        <ul class="nav nav-tabs ba" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active " data-toggle="tab" href="#home">Máy tính để bàn</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="tab" href="#profile" >Seo</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Tab panes -->
+    <div class="tab-content " >
+    <!-- Tab panes Maytinh-->
+    <div  class="container tab-pane active" id="home"></br>
+        <div class="container" id="ls" >
+            <div class="output" id="output"></div>
+            </br>
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        <div class="ff">
+                                <i class="fa fa-circle ad"></i>
+                                Dữ liệu trường
+                        </div>
+                    </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body ii">
+                            <div id="output2"></div>
+                            <div id="output3"></div>
+                    </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                        <div class="ff">
+                            <i class="fa fa-circle ad" ></i>
+                            Dữ liệu thử nghiệm
+                        </div>
+                    </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                    <div class="card-body ii">
+                            <div class="hh">
+                            <div id="output4"></div>
+                            <div id="output5"></div>       
+                            <div id="output6"></div>
+                            </div>  
+                            <div class="kk">
+                                <div id="output7"></div>
+                                <div id="output8"></div>
+                                <div id="output9"></div>
+                            </div>
+                        </br>
+                    </div>
+                    </div>
+                </div>
+            </div> 
+            </br>
+                <p> <span class="gg">Chuẩn đoán</span> - <span class="ee">thông tin khác về hiệu suất ứng dụng của bạn</span></p>
+            </br>
+            <div id="accordion" class="accordion">
+                    <div class="card">
+                        <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#collapseFith">
+                                <div class="ff">
+                                    <i class="fa fa-circle"  id="font"></i>
+                                    Đảm bảo văn bản vẫn hiển thị trong khi tải phông chữ web
+                                </div>
+                        </a>
+                        </div>
+                        <div id="collapseFith" class="collapse show" data-parent="#accordion">
+                        <div class="card-body ii">
+                            <p>Sử dụng tính năng CSS hiển thị phông chữ để đảm bảo văn bản hiển thị với người dùng khi phông chữ web đang tải.
+                                    <a class="linkk" href="https://developers.google.com/web/updates/2016/02/font-display">Tìm hiểu thêm</a>
+                            </p>
+                            <p class="ee"> URL <span class="aa">Số byte có thể tiết kiệm</span></p>
+                            <p > <span id="tf11" class="hhh"></span><span id="tf12" class="aaa"></span></p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                            <div class="ff">
+                                <i class="fa fa-circle" id="dom"></i>
+                                Tránh kích thước DOM quá lớn
+                            </div>
+                        </a>
+                        </div>
+                        <div id="collapseFour" class="collapse" data-parent="#accordion">
+                            <div class="card-body ii" >
+                                <p>Các kỹ sư trình duyệt khuyên rằng các trang không nên chứa quá 1.500 phần tử DOM. Tốt nhất là có độ sâu của cây nhỏ hơn 32 phần tử và có ít hơn 60 phần tử con/phần tử mẹ. Một DOM lớn có thể làm tăng mức sử dụng bộ nhớ, khiến 
+                                        <a class="linkk" href="https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations">các phép tính về kiểu</a> dài hơn, đồng thời tạo ra
+                                        <a class="linkk" href="https://developers.google.com/speed/articles/reflow">các quy trình trình bày lại bố cục</a> tốn kém.
+                                        <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/dom-size">Tìm hiểu thêm</a>
+                                </p>
+                                <p class="ee"> Thống kê <span class="aa">Giá trị</span></p>
+                                <p> Tổng số các phần tử DOM: <span id="output10" class="aa"></span></p>
+                                <p> Độ sâu DOM tối đa:   <span id="output11" class="aa"></span></p>
+                                <p> Phần tử con tối đa:   <span id="output12" class="aa"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseSix">
+                                <div class="ff">
+                                    <i class="fa fa-circle" id="tByte"></i>
+                                    Tránh các tài nguyên lớn trên mạng
+                                </div>
+                            </a>
+                            </div>
+                            <div id="collapseSix" class="collapse" data-parent="#accordion">
+                                <div class="card-body ii">
+                                        <p>Tải trọng mạng lớn gây tốn tiền cho người dùng và thường dẫn đến thời gian tải lâu.
+                                                <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/network-payloads">Tìm hiểu thêm</a>
+                                        </p>
+                                        <p class="ee"> URL <span class="aa">Kích thước</span></p>
+                                        <p > <span id="tf9" class="hhh"></span><span id="tf10" class="aaa"></span></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseSeven">
+                                <div class="ff">
+                                    <i class="fa fa-circle" id="thread"></i> 
+                                    Giảm thiểu công việc theo chuỗi chính
+                                </div>
+                            </a>
+                            </div>
+                            <div id="collapseSeven" class="collapse" data-parent="#accordion">
+                                <div class="card-body ii">
+                                        <p>Hãy xem xét giảm thời gian dùng để phân tích cú pháp, biên soạn và thực thi JS. Bạn có thể giải quyết vấn đề này bằng cách phân phối các tải trọng JS nhỏ hơn.</p>
+                                        <p class="ee"> Danh mục  <span class="aa">Thời gian sử dụng</span></p>
+                                        <p > <span id="output25" ></span><span id="output32" class="aa"></span></p>
+                                        <p > <span id="output26" ></span><span id="output33" class="aa"></span></p>
+                                        <p > <span id="output27" ></span><span id="output34" class="aa"></span></p>
+                                        <p > <span id="output28" ></span><span id="output35" class="aa"></span></p>
+                                        <p > <span id="output29" ></span><span id="output36" class="aa"></span></p>
+                                        <p > <span id="output30" ></span><span id="output37" class="aa"></span></p>
+                                        <p > <span id="output31" ></span><span id="output38" class="aa"></span></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseEight">
+                                <div class="ff"> 
+                                        <i class="fa fa-circle" id="boot"></i>
+                                        Giảm thời gian thực thi Javascript    
+                                </div>                    
+                            </a>
+                            </div>
+                            <div id="collapseEight" class="collapse" data-parent="#accordion">
+                                <div class="card-body ii">
+                                        <p>Hãy xem xét giảm thời gian dùng để phân tích cú pháp, biên soạn và thực thi JS. Bạn có thể giải quyết vấn đề này bằng cách phân phối các tải trọng JS nhỏ hơn.
+                                                <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/bootup">Tìm hiểu thêm</a>    
+                                        </p>
+                            <p class="ee"> URL  <span class="cc">Tổng thời gian của CPU</span><span class="dd">Phân tích cú pháp tập lệnh</span></p>
+                            </br>
+                            <p > <span id="output39" class="bb"></span><span id="output40" class="cc" ></span><span id="output41" class="dd"></span></p>
+                            <p > <span id="output42" class="bb" ></span><span id="output43" class="cc" ></span><span id="output44" class="dd"></span></p>
+                            <p > <span id="output45" class="bb" ></span><span id="output46" class="cc" ></span><span id="output47" class="dd"></span></p>           
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseNine">
+                                <div class="ff"> 
+                                        <i class="fa fa-circle" id="uses"></i>
+                                        Mã hóa hình ảnh hiệu quả   
+                                </div>                    
+                            </a>
+                            </div>
+                            <div id="collapseNine" class="collapse" data-parent="#accordion">
+                                <div class="card-body ii">
+                                        <p>Hình ảnh được tối ưu hóa sẽ tải nhanh hơn và tiêu tốn ít dữ liệu di động hơn.
+                                                <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/optimize-images">Tìm hiểu thêm</a>        
+                                        </p>
+                                        <p class="ee"> URL  <span class="aa">Số byte có thể tiết kiệm</span></p>
+                                        <p > <span id="tf7" class="hhh"></span><span id="tf8" class="aaa"></span></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTen">
+                                <div class="ff"> 
+                                        <i class="fa fa-circle" id="webp"></i>
+                                        Phân phối hình ảnh ở định dạng mới và hiệu quả hơn  
+                                </div>                    
+                            </a>
+                            </div>
+                            <div id="collapseTen" class="collapse" data-parent="#accordion">
+                                <div class="card-body ii">
+                                        <p>Các định dạng hình ảnh như JPEG 2000, JPEG XR và WebP thường nén tốt hơn so với các định dạng PNG hoặc JPEG. Điều này có nghĩa là tốc độ tải xuống nhanh hơn và tiêu tốn ít dữ liệu hơn.
+                                                <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/webp">Tìm hiểu thêm</a>        
+                                        </p>
+                                        <p class="ee"> URL  <span class="aa">Số byte có thể tiết kiệm</span></p>
+                                        <p > <span id="tf5" class="hhh"></span><span id="tf6" class="aaa"></span></p>
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseEle">
+                                <div class="ff"> 
+                                        <i class="fa fa-circle" id="longcache"></i>
+                                        Phân phối các nội dung tĩnh bằng chính sách bộ nhớ đệm hiệu quả
+                                </div>                    
+                            </a>
+                            </div>
+                            <div id="collapseEle" class="collapse" data-parent="#accordion">
+                                <div class="card-body ii">
+                                        <p>Tuổi thọ lâu dài của bộ nhớ đệm có thể tăng tốc số lượt truy cập lặp lại vào trang của bạn.
+                                                <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/cache-policy">Tìm hiểu thêm</a>        
+                                        </p>
+                                        <p class="ee"> URL  <span class="aa">Kích thước (KB)</span></p>
+                                        <p > <span id="tf3" class="hhh"></span><span id="tf4" class="aaa"></span></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwe">
+                                <div class="ff"> 
+                                        <i class="fa fa-circle" id="ucss"></i>
+                                        Rút gọn css
+                                </div>                    
+                            </a>
+                            </div>
+                            <div id="collapseTwe" class="collapse" data-parent="#accordion">
+                                <div class="card-body ii">
+                                        <p>Việc giảm kích thước tệp CSS có thể giảm kích thước tài nguyên trên mạng.
+                                                <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/minify-css">Tìm hiểu thêm</a>        
+                                        </p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header">
+                            <a class="collapsed card-link" data-toggle="collapse" href="#collapseT1">
+                                <div class="ff"> 
+                                        <i class="fa fa-circle" id="ujs"></i>
+                                        Rút gọn JavaScript
+                                </div>                    
+                            </a>
+                            </div>
+                            <div id="collapseT1" class="collapse" data-parent="#accordion">
+                                <div class="card-body ii">
+                                        <p>Việc giảm kích thước tệp JavaScript có thể giảm kích thước tải trọng và thời gian phân tích cú pháp tập lệnh.
+                                                <a class="linkk" href="https://developers.google.com/speed/docs/insights/MinifyResources">Tìm hiểu thêm</a>        
+                                        </p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+        
+        </div>
+    </div>
+    <!-- Tab panes Seo-->
+    <div class="tab-pane container fade" id="profile"></br>
+        <div class="container" id="ls2">
+                <div class="output" id="outputb"></div>
+                </br>
+                <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapsebOne">
+                        <div class="ff">
+                                <i class="fa fa-circle " id="seo"></i>
+                                Các phần tử hình ảnh không có thuộc tính `[alt]`
+                        </div>
+                    </a>
+                    </div>
+                    <div id="collapsebOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body ii">
+                            <p> Các phần tử thông tin nên là đoạn văn bản thay thế ngắn, có tính mô tả. Có thể bỏ qua phần tử trang trí bằng một thuộc tính alt trống.
+                                    <a class="linkk" href="https://dequeuniversity.com/rules/axe/3.1/image-alt?application=lighthouse">Tìm hiểu thêm</a>
+                            </p>
+                            <p > <span class="hhhh">Snippet</span><span class="kkk">Path</span></p>
+                            <p > <span id="tf" class="hhhh"></span><span id="tf2" class="kkkk"></span></p>
+                            <br>
+                    </div>
+                    </div>
+                </div>  
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapsebTwo">
+                        <div class="ff">
+                            <i class="fa fa-circle" id="seo2" ></i>
+                            Tài liệu có `hreflang` hợp lệ
+                        </div>
+                    </a>
+                    </div>
+                    <div id="collapsebTwo" class="collapse" data-parent="#accordion">
+                    <div class="card-body ii">
+                        <p> Các phần tử liên kết hreflang cho công cụ tìm kiếm biết nên liệt kê phiên bản nào của trang trong kết quả tìm kiếm cho một ngôn ngữ hoặc khu vực cụ thể. 
+                            <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/hreflang">Tìm hiểu thêm</a>
+                        </p>
+                        <p > <span id="tf13" class="hh"></span></p>
+
+                        </br>
+                    </div>
+                    </div>
+                </div> 
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapsebThree">
+                        <div class="ff">
+                            <i class="fa fa-circle" id="seo3" ></i>
+                            Trang không bị chặn lập chỉ mục
+                        </div>
+                    </a>
+                    </div>
+                    <div id="collapsebThree" class="collapse" data-parent="#accordion">
+                    <div class="card-body ii">
+                        <p> Các công cụ tìm kiếm không thể bao gồm trang của bạn trong kết quả tìm kiếm nếu bạn không cấp cho các công cụ này quyền thu thập thông tin của trang.
+                            <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/indexing">Tìm hiểu thêm</a>
+                        </p>
+                        <p > <span id="tf14" class="hh"></span></p>
+
+                        </br>
+                    </div>
+                    </div>
+                </div> 
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapsebFour">
+                        <div class="ff">
+                            <i class="fa fa-circle" id="seo4" ></i>
+                            Tài liệu sử dụng cỡ chữ dễ đọc
+                        </div>
+                    </a>
+                    </div>
+                    <div id="collapsebFour" class="collapse" data-parent="#accordion">
+                    <div class="card-body ii">
+                        <p> Cỡ chữ dưới 12 pixel là quá nhỏ và khó đọc, buộc khách truy cập trên thiết bị di động phải “chụm để thu phóng” mới đọc được. Tốt nhất là hơn 60% văn bản trên trang có cỡ chữ lớn hơn hoặc bằng 12 pixel.
+                            <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/font-sizes">Tìm hiểu thêm</a>
+                        </p>
+                        <p > <span id="tf15" class="hh"></span></p>
+
+                        </br>
+                    </div>
+                    </div>
+                </div>  
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapsebFour1">
+                        <div class="ff">
+                            <i class="fa fa-circle" id="seo5" ></i>
+                            Tài liệu có phần tử `[title]`
+                        </div>
+                    </a>
+                    </div>
+                    <div id="collapsebFour1" class="collapse" data-parent="#accordion">
+                    <div class="card-body ii">
+                        <p> Tiêu đề giúp người dùng trình đọc màn hình nắm được thông tin tổng quan về trang, và giúp người dùng công cụ tìm kiếm chủ yếu dựa vào tiêu đề này xác định xem một trang có liên quan đến nội dung tìm kiếm của họ hay không.
+                            <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/title">Tìm hiểu thêm</a>
+                        </p>
+                        <p > <span id="tf16" class="hh"></span></p>
+
+                        </br>
+                    </div>
+                    </div>
+                </div>  
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapsebFith">
+                        <div class="ff">
+                            <i class="fa fa-circle" id="seo6" ></i>
+                            Các phần tử liên kết có văn bản mô tả
+                        </div>
+                    </a>
+                    </div>
+                    <div id="collapsebFith" class="collapse" data-parent="#accordion">
+                    <div class="card-body ii">
+                        <p> Văn bản mô tả của phần tử liên kết giúp công cụ tìm kiếm hiểu được nội dung của bạn.
+                            <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/descriptive-link-text">Tìm hiểu thêm</a>
+                        </p>
+                        <p > <span id="tf17" class="hh"></span></p>
+
+                        </br>
+                    </div>
+                    </div>
+                </div>  
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapsebSix">
+                        <div class="ff">
+                            <i class="fa fa-circle" id="seo7" ></i>
+                            Trang có mã trạng thái HTTP thành công
+                        </div>
+                    </a>
+                    </div>
+                    <div id="collapsebSix" class="collapse" data-parent="#accordion">
+                    <div class="card-body ii">
+                        <p> Các trang có mã trạng thái HTTP không thành công có thể không được lập chỉ mục chính xác. 
+                            <a class="linkk" href="https://developers.google.com/web/tools/lighthouse/audits/successful-http-code">Tìm hiểu thêm</a>
+                        </p>
+                        <p > <span id="tf18" class="hh"></span></p>
+
+                        </br>
+                    </div>
+                    </div>
+                </div>          
+                </div>                      
+        </div>
+    </div>
+    </div>
+    
+    
+    
+
+
+<div id="img">
+    </br>
+        <img class="img" width="170" height="100" src="https://developers.google.com/web/progressive-web-apps/images/pwa-lighthouse.png">
+        <div class="output2">Chuẩn đoán trên được dựa trên dữ liệu thử nghiệm do Lighthouse phân tích.</div>
+    </br>
+</div>
+<div id="tt">
+    <div class="d-flex flex-column tt" >
+            <div id="page-content">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                <div class="col-md-7">
+                    <h2 class="font-weight-light mt-4 text-white">Contact us</h2>
+                    </br>
+                    <div class="mb-1 flex-center">
+                            <!-- Facebook -->
+                            <a class="fb-ic black" href="https://www.facebook.com/">
+                                <i class="fab fa-facebook-f fa-lg dark-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <!-- Twitter -->
+                            <a class="tw-ic black" href="https://www.facebook.com/">
+                                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <!-- Google +-->
+                            <a class="gplus-ic black" href="https://www.facebook.com/">
+                                <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <!--Linkedin -->
+                            <a class="li-ic black" href="https://www.facebook.com/">
+                                <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <!--Instagram-->
+                            <a class="ins-ic black" href="https://www.facebook.com/" >
+                                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <!--Pinterest-->
+                            <a class="pin-ic black" href="https://www.facebook.com/">
+                                <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                            </a>
+                    </div>
+                    <p class="lead text-white-50">My PageSpeed Insights phân tích nội dung của trang web, sau đó tạo đề xuất nhằm giúp trang web hoạt động nhanh hơn</p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+                <div class="container text-center">
+                    <small>Copyright &copy; My Insights</small>
+                </div>
+            </footer>
+        
+</div>
+</div>
+</body>
+<script src="main.js">
+    
+</script> 
+</html>

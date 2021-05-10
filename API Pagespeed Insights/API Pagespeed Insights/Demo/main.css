@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    header, footer, section, aside, nav, article {
+        display: block;
+        }  
+
+/*Nav*/
+nav li{
+    font-size: 13px !important;
+}
+input[type="text"]
+{
+    width:500px !important;
+    margin-left: 25%;
+}
+.linkk{
+    text-decoration: none; 
+}
+.linkk:hover{
+    text-decoration: none; 
+}
+
+/*Form*/
+.formm{
+    padding-top: 70px;
+}
+/*Process*/
+.progress {
+    display: none;
+}
+
+.sticky-offset {
+    top: 56px !important;
+}
+/* Body */
+.output{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.output2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.img{
+    margin-left: 43%;
+
+}   
+.aa{ 
+    float: right;   
+}
+
+.cc{
+    float: right;
+    width: 200px;
+}
+.dd{
+    float: right;
+    margin-right: 10%;
+}
+.ee{
+    color: gray;
+}
+.ff{
+    color: black;
+    font-weight: 500;
+}
+.gg{
+    color: black;
+    font-weight: bolder;
+}
+.kk{
+    float: right;
+}
+.hh{
+    float: left;
+}
+.ii{
+    margin-left: 20px;
+}
+#page-content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+  /* Other Classes for Page Styling */
+.tt {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+.yy{
+    color: #0062E6; 
+}
+
+.output1{
+    margin-left: 20%;
+    font-size: 24px;
+    font-weight: bolder;
+    color: white; 
+    margin-bottom: 20px;
+}
+
+.ba{
+    background-color: white !important;
+}
+
+.ab{
+    color: #FFA400;
+}
+.ac{
+    color: #FF4E42;
+}
+.ad{
+    color: #0CCE6B;
+}
+.black{
+    color: black;
+}
+.hhh{
+    text-overflow: ellipsis;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 700px;
+}
+.hhhh{
+    text-overflow: ellipsis;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 500px;
+}
+.kkkk{
+    text-overflow: ellipsis;
+    float: right;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 500px;
+}
+.kkk{
+    margin-left: 475px;
+}
+.aaa{
+    float: right;
+}
